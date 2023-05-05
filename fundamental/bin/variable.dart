@@ -16,7 +16,17 @@ void main(){
   const array2 = [1,2,3]; // data tidak bisa diubah
 
   array1[0] = 10;
-  array2[0] = 10;
+  // array2[0] = 10;
   print(array1);
-  print(array2);
+  // print(array2);
+
+  //variable dideklarasikan nanti saja, ketika memang variable tersebut diakses, jika tidak diakses, tidak perlu dideklarasikan
+  late var value = getValue();
+  print('Variable sudah dibuat');
+  print(value);
+}
+
+String getValue(){
+  print("getValue() dipanggil");
+  return "Fajar Adi Setyawan";
 }
