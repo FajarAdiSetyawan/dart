@@ -1,6 +1,12 @@
 void main(){
-  var nilaiAwal = 80;
-  var nilaiAkhir = 80;
+  dynamic variable = 80;
+  var variableInt = variable as int;
+  var isInt = variable is int;
+  var isNotBool = variable is! bool;
 
-  var
+  print(variableInt);
+  print(isInt);
+  print(isNotBool);
+
+
 }

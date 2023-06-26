@@ -12,6 +12,7 @@ void main(){
   print(lastName);
 
 
+
   final array1 = [1,2,3]; // data bisa diubah
   const array2 = [1,2,3]; // data tidak bisa diubah
 

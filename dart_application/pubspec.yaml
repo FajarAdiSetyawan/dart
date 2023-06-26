@@ -1,0 +1,19 @@
+name: dart_application
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+publish_to: none
+
+dependencies:
+  dart_library:
+  git:
+    url: git@github.com:FajarAdiSetyawan/dart.git
+    ref: 1.0.0 #tag/branch
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
